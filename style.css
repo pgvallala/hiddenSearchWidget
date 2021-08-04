@@ -5,7 +5,7 @@
 }
 
 body {
-    background: cadetblue;
+    background-image: linear-gradient(to bottom right, red , blue);
     font-family: sans-serif;
     align-items: center;
     justify-content: center;
@@ -20,10 +20,10 @@ body {
 }
 
 .search .input{
-    background-color: cornsilk;
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
     border: 20;
     cursor: pointer;
-    font-size: 15px;
+    font-size: 25px;
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +33,7 @@ body {
 }
 
 .button {
-    background-color: darkgoldenrod;
+    background-color: rgb(100, 11, 184);
     position: absolute;
     top: 0;
     left: 0;
@@ -50,9 +50,9 @@ body {
 }
 
 .search.active .input {
-    width: 200px;
+    width: 400px;
 }
 
 .search.active .button {
-    transform: translateX(200px);
+    transform: translateX(400px);
 }
